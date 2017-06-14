@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-// import { Layout, Wrapper, Spacer } from './components/Styles'
 import { Layout, Wrapper, Spacer } from './components/Styles'
+
 /*eslint-disable*/
 import IconTest from './IconTest'
 import { ButtonTest, ButtonTest2 } from './ButtonTest'
@@ -17,7 +17,7 @@ class App extends Component {
                         <Spacer space={'0.8rem'} />
                         <ButtonTest2 />
                         <Spacer space={'0.8rem'} />
-                        <IconTest />
+                        {/*<IconTest />*/}
                     </div>
                 </Layout>
                 </Wrapper>
