@@ -4,3 +4,5 @@ This module uses Styled Components, so all CSS styling is included when the modu
 
 In order to create themed child components (not wrapped in navbarChildren, sidebarChildren, or footerChildren), use the withTheme wrapper provided by styled-components. This will provide the theme object to the child component. See src/styles/variables.js for the available variables. Documentation for these variables is TBD.
 
+"start": "cross-env NODE_PATH=src/ react-scripts start",
+
