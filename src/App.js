@@ -1,21 +1,28 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { Layout, Wrapper, Spacer } from './components/Styles'
+/*eslint-disable*/
+import IconTest from './IconTest'
+import { ButtonTest, ButtonTest2 } from './ButtonTest'
+/*eslint-enable*/
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+    render() {
+        return (
+            <div>
+                <Wrapper>
+                <Layout>
+                    <div>
+                        <ButtonTest />
+                        <Spacer space={'0.8rem'} />
+                        <ButtonTest2 />
+                        <Spacer space={'0.8rem'} />
+                        <IconTest />
+                    </div>
+                </Layout>
+                </Wrapper>
+            </div>
+    )    
   }
 }
 
-export default App;
+export default App
